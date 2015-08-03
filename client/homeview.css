@@ -1,7 +1,25 @@
-h1 {
-  color: red;
-  padding-left: auto;
-  padding-right: auto;
+.title {
+  background-color: #fffefe;
+  height: 100px;
+}
+
+.title h1 {
+  color: #ffa74e;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+.schwemmslogo {
+  background-color: #f9ebeb;
+}
+
+.schwemmslogo p {
+  font-family: 'Pacifico', cursive;
+  font-size: 150;
+  color: #45beee;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 h3.view-hours {
