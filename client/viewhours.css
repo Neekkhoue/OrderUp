@@ -16,37 +16,17 @@
   font-size: 48pt;
 }
 
-.schwemmslogo {
-  background-color: #f9ebeb;
-  height: auto;
-  margin: 0;
-  padding-top: auto;
-  padding-bottom: auto;
-}
-
-.container {
-  margin: 0;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.schwemmslogo p {
-  font-family: 'Pacifico', cursive;
-  font-size: 120pt;
-  color: #45beee;
-  text-align: center;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin: 0;
+table {
+  width: 50%;
 }
 
 .buttons {
   margin-left: 0;
   margin-right: 0;
-  padding: 0px;
+  padding: 5px;
   padding-left: auto;
   padding-right: auto;
-  background-color: #fffefe;
+  background-color: #fffefe
 }
 
 .buttons .container {
@@ -54,6 +34,5 @@
   padding-right: 0;
   width: 252px;
   margin: 0 auto;
-  padding-top: 10px;
   background-color: #fffefe;
 }
