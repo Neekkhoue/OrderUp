@@ -16,11 +16,19 @@
   font-size: 48pt;
 }
 
+div.menu div.container {
+  width: 900px;
+  margin: 0px auto;
+  padding-top:0px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 0px;
+}
+
 .menu {
-  padding-left: 20%;
+  margin: 10px 0px;
   background-color: #f9ebeb;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 20px;
 }
 
 .menu h3 {
@@ -35,21 +43,67 @@
   padding-left: 5%;
 }
 
+div.menu div.container div.row {
+  margin-left: 0px;
+}
+
+div.menu div.container div.row div.col-md-6 {
+  padding-left: 0px;
+  margin-left: 15px;
+  margin-right: 10px;
+  width: 300px;
+}
+
+div.menu div.container div.row div.col-md-6 div.container {
+  width: 500px;
+  padding: 0px;
+}
+
+div.menu div.container div.row div.col-md-6 div.container div.row {
+  padding-left: 0px;
+  width: 400px;
+  margin-left: 5px;
+}
+
+div.menu div.container div.row div.col-md-6 div.container div.col-md-2 {
+  padding: 0px 0px;
+  width: 100px;
+}
+
 span {
   color: #07103c;
   font-style: italic;
-}
-
-li {
-  color: #45beee
+  text-decoration: underline;
 }
 
 ul {
+  text-align: left;
   list-style-type: none;
+  padding-left: 0;
+  width: 100px;
+  margin: 0;
+}
+
+li {
+  color: #45beee;
 }
 
 div.col-md-2 {
-  text-align: center;
+  text-align: left;
+  width: auto;
+  margin: 0;
+}
+
+#sandwiches {
+  margin-top: 30px;
+}
+
+.lineup {
+  margin-left: 15px;
+}
+
+body {
+  margin-bottom: 10px;
 }
 
 .buttons {
@@ -58,7 +112,7 @@ div.col-md-2 {
   padding: 5px;
   padding-left: auto;
   padding-right: auto;
-  background-color: #fffefe
+  background-color: #fffefe;
 }
 
 .buttons .container {
