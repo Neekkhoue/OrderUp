@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+/*div {
+  border-width: 2px;            <-- Enable when aligning divs
+  border-color: #000000;        
+  border-style: solid;
+} */
+
 .title {
   background-color: #fffefe;
   height: auto;
@@ -16,94 +22,146 @@
   font-size: 48pt;
 }
 
-div.menu div.container {
-  width: 900px;
-  margin: 0px auto;
-  padding-top:0px;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 0px;
-}
-
-.menu {
-  margin: 10px 0px;
+.container {
   background-color: #f9ebeb;
-  padding-top: 20px;
+  width: 100%;
+  height: 1100px
 }
 
-.menu h3 {
-  font-family: "Ubuntu", sans-serif;
-  color: #07103c;
+.breakfast {
+  background-color: #45beee;
+  margin-top: 75px;
+  float: left;
+  margin-left: 14%;
+  width: 32%;
+  height: 250px;
+  padding: 6px;
+  border-radius: 5px;
 }
 
-.menu p {
-  font-family: "Arial", sans-serif;
-  font-size: 12pt;
-  color: #45beee;
-  padding-left: 5%;
+.grill {
+  background-color: #45beee;
+  margin-top: 75px;
+  float: right;
+  margin-right: 14%;
+  width: 32%;
+  height: 250px;
+  padding: 6px;
+  border-radius: 5px;
 }
 
-div.menu div.container div.row {
-  margin-left: 0px;
+.deli {
+  background-color: #45beee;
+  width: 52%;
+  height: 300px;
+  margin-top: 50px;
+  padding: 6px;
+  margin-left: 14%;
+  float: left;
+  text-align: center;
+  border-radius: 5px;
 }
 
-div.menu div.container div.row div.col-md-6 {
-  padding-left: 0px;
-  margin-left: 15px;
-  margin-right: 10px;
-  width: 300px;
+.deliContent {
+  margin-top: 20px;
+  float: left;
+  margin-left: 7%;
+  width: 24%;
+  height: 170px;
+  text-align: left;
 }
 
-div.menu div.container div.row div.col-md-6 div.container {
-  width: 500px;
-  padding: 0px;
+.header {
+  font-size: 20px;
+  font-style: Impact;
+  color: #f9ebeb;
 }
 
-div.menu div.container div.row div.col-md-6 div.container div.row {
-  padding-left: 0px;
-  width: 400px;
+.salad {
+  float: right;
+  margin-top: 50px;
+  background-color: #45beee;
+  margin-right: 14%;
+  width: 15%;
+  border-radius: 5px;
+  height: 150px;
+  padding: 6px;
+  text-align: center;
+}
+
+.product {
+  margin-top: 0px;
+  margin-left: 10px;
+  height: 200px;
+  width: 80%;
+  float: left;
+}
+
+.price {
+  margin-top: 0px;
+  margin-left: 10px;
+  height: 200px;
+  width: 1å0%;
+  float: left;
+}
+
+.saladProduct {
+  float: left;
+  margin-top: 0px;
+  margin-left: 1.5%;
+  height: 100px;
+  width: 75%;
+  text-align: left;
+}
+
+.saladPrice {
+  float: left;
+  margin-top: 0px;
+  margin-left: 2%;
+  height: 100px;
+  width: 20%;
+  text-align: left;
+}
+
+.sandwiches {
+  margin-left: 14%;
+  margin-top: 50px;
+  float: left;
+  background-color: #45beee;
+  text-align: left;
+  width: 72%;
+  height: 300px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.productSandw {
+  margin-top: 0px;
+  margin-left: 10px;
+  height: 200px;
+  width: 43%;
+  float: left;
+}
+
+.priceSandw {
+  margin-top: 0px;
   margin-left: 5px;
-}
-
-div.menu div.container div.row div.col-md-6 div.container div.col-md-2 {
-  padding: 0px 0px;
-  width: 100px;
-}
-
-span {
-  color: #07103c;
-  font-style: italic;
-  text-decoration: underline;
-}
-
-ul {
-  text-align: left;
-  list-style-type: none;
-  padding-left: 0;
-  width: 100px;
-  margin: 0;
-}
-
-li {
-  color: #45beee;
-}
-
-div.col-md-2 {
-  text-align: left;
-  width: auto;
-  margin: 0;
-}
-
-#sandwiches {
-  margin-top: 30px;
-}
-
-.lineup {
-  margin-left: 15px;
+  height: 200px;
+  width: 5%;
+  float: left;
 }
 
 body {
-  margin-bottom: 10px;
+  color: #07103c;
+}
+
+#darkblue {
+  color: #07103c;
+  font-size: 17px;
+}
+
+#lightgray {
+  color: #f9ebeb;
 }
 
 .buttons {
